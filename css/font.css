@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/**********/
+/*  Lora
+/**********/
+@font-face {
+    font-family: "Lora";
+    font-weight: 400;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/lora/Lora-Regular.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+2010, U+2013-2014, U+2018-2019, U+201C-201D;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lora";
+    font-weight: 400;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/lora/Lora-Italic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+2010, U+2013-2014, U+2018-2019, U+201C-201D;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lora";
+    font-weight: 600;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/lora/Lora-Bold.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+2010, U+2013-2014, U+2018-2019, U+201C-201D;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lora";
+    font-weight: 600;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/lora/Lora-BoldItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+2010, U+2013-2014, U+2018-2019, U+201C-201D;
+    font-display: swap;
+}
+
+
+
+/**********/
+/* Source Serif Pro
+/**********/
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 200;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-ExtraLight.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+2010, U+2013-2014, U+2018-2019, U+201C-201D;
+    /*  for body text, display as soon as possible (presumably as system font Baskerville)
+        and re-render with Source Serif Pro whenever it downloads:
+        https://developers.google.com/web/updates/2016/02/font-display
+        https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
+        https://caniuse.com/#search=font-display
+        */
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 200;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-ExtraLightItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 300;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-Light.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 300;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-LightItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 400;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-Regular.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 400;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-RegularItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 600;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-Semibold.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 600;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-SemiboldItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 700;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-Bold.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 700;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-BoldItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-Black.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/serif-pro/SourceSerifPro-BASIC-BlackItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+
+
+/**********/
+/* Source Sans Pro
+/**********/
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-ExtraLight.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-ExtraLightItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-Light.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-LightItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-Regular.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-RegularItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-Semibold.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-SemiboldItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-Bold.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-BoldItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-Black.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-style: italic;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/sans-pro/SourceSansPro-BASIC-BlackItalic.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+    font-display: swap;
+}
+
+/**********/
+/* Source Code Pro
+/**********/
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 200;
+    font-style: normal;
+    src: url('C:/Users/Admin/UserFiles/prog/web/font/code-pro/SourceCodePro-Regular.ttf') format('truetype');
+    unicode-range: U+0020-007E, U+2010, U+2013-2014, U+2018-2019, U+201C-201D;
+    font-display: swap;
+}
