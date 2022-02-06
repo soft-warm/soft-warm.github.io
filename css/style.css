@@ -28,13 +28,6 @@ a:active {
   color: #b80025; text-decoration: none;
 }
 
-.test{
-  position: absolute;
-  left: 0px;
-  margin-top: 50px;
-  border: 5 #fff solid;
-}
-
 hr.header{
   border-top: 1px solid black;
   border-bottom: 0px;
@@ -95,14 +88,14 @@ hr.navigation{
   font-family: 'Lora', serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 110%;
+  font-size: 120%;
 
   margin:  auto;
 
   border: 1%;
   padding: 1%;
   line-height:  1.2em;
-  width:45%;
+  width:55%;
 }
 
 .end{
