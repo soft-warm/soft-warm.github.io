@@ -69,10 +69,9 @@ hr.navigation{
 .title{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  font-style: italic;
   font-size: 190%;
 
-  width:100%;
+  width:55%;
 }
 
 .content{
